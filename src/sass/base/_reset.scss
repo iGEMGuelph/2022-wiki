@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+	margin: 0px;
+}
+
+a {
+	color: $system-black;
+	list-style: none;
+	text-decoration: none;
+}
